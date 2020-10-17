@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Lol</string>
+    <string name="comment_vousd_finiriez_vous">How would you describe yourself?</string>
+    <string name="fougueux">Fiery</string>
+    <string name="peureux">fearful</string>
+    <string name="fourbe">Deceitful</string>
+    <string name="un_peu_foufou">Crazy</string>
+    <string name="DirDroite" translatable="false"><![CDATA[>]]></string>
+    <string name="DirGauch" translatable="false"><![CDATA[<]]></string>
+    <string name="comment_vous_d_finiriez_vous">How would you describe yourself?</string>
+    <string name="activit_3" translatable="false">Activité3</string>
+    <string name="comment_pr_f_res_tu_vivre">What would be your way of life ?</string>
+    <string name="seul_au_monde">Alone</string>
+    <string name="je_pr_f_re_la_compagnie_des_animaux">I prefer animals</string>
+    <string name="j_alterne_entre_solitude_et_changes_avec_mes_amis">I altern between solitude and sociability</string>
+    <string name="plus_on_est_de_fous_plus_on_rit">The more the merrier</string>
+    <string name="quelle_image_vous_parle_le_plus">Chose your favorite coat of arms</string>
+    <string name="checkbox1">I hide myself and wait the best moment</string>
+    <string name="lors_d_un_combat">During a fight :</string>
+    <string name="une_grosse_boule_de_feu">A BIG Fireball</string>
+    <string name="la_meilleur_attaque_c_est_la_d_fance">My Shield !</string>
+    <string name="todo" translatable="false">todo55</string>
+    <string name="mon_arme_favorite">My favorite weapon</string>
+    <string name="Question6txt">Select the best quote</string>
+    <string name="exit">Exit</string>
+    <string name="startValues">Start Survey</string>
+    <string name="backgroundMain" translatable="false">faille Lol</string>
+    <string name="bg2" translatable="false">bg2</string>
+    <string name="mailSent">Mail sent !</string>
+    <string name="choice">What do you want to do ?</string>
+    <string name="tryAgain">Try again</string>
+    <string name="quitApp">Exit</string>
+    <string name="send_result">Send result</string>
+    <string name="imageFinal" translatable="false">finalScreen</string>
+    <string name="skipMail">Skip</string>
+    <string name="j_aime_mes_nemies_mort_loin">I like my enemies dead far away</string>
+    <string name="j_aime_les_voir_agoniser_sous_mes_yeux">I love to cut the enemies</string>
+    <string name="bee" translatable="false">bee</string>
+    <string name="checkbox2">I rush in to make a lot of damages</string>
+    <string name="checkbox3">I run awayyyy !</string>
+    <string name="checkbox4">My soldiers are ready to fight</string>
+    <string name="voli" translatable="false">volibear</string>
+    <string name="joke">Select the best joke and press next !</string>
+    <string name="garen" translatable="false">garen</string>
+    <string name="kled">kled</string>
+    <string name="heimer">heimer</string>
+    <string name="akali">akali</string>
+    <string name="anivia">anivia</string>
+    <string name="pickStar">Rate every picture and go next !</string>
+    <string name="bandle" translatable="false">bandle</string>
+    <string name="bilgewater" translatable="false">bilgewater</string>
+    <string name="ionia" translatable="false">ionia</string>
+    <string name="shurima" translatable="false">shurima</string>
+    <string name="noxus" translatable="false">noxus</string>
+    <string name="demacia" translatable="false">demacia</string>
+    <string name="targon" translatable="false">targon</string>
+    <string name="piltover" translatable="false">piltover</string>
+    <string name="freljord" translatable="false">freljord</string>
+</resources>

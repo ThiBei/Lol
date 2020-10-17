@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="choix_question">
+        <item>The key to immortality, not dying.</item>
+        <item>Another mushroom, another victim.</item>
+        <item>Why so serious?</item>
+        <item>Fortune doesn\'t favor fools.</item>
+		<item>Order through music.</item>
+		<item>OK.</item>
+    </string-array>
+</resources>

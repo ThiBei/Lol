@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ActivityQuestion6">
+    <FrameLayout
+        android:layout_width="1263dp"
+        android:layout_height="957dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/backgroundLol"
+            android:layout_width="1500dp"
+            android:layout_height="950dp"
+            android:backgroundTint="#E6E2E2"
+            android:backgroundTintMode="multiply"
+            android:contentDescription="@string/bg2"
+            android:soundEffectsEnabled="true"
+            app:srcCompat="@drawable/background_landscape" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="371dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/optimusprincepssemibold"
+        android:text="@string/Question6txt"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnDroit"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="64dp"
+        android:background="@drawable/roundbutton"
+        android:fontFamily="@font/optimusprinceps"
+        android:text="@string/DirDroite"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btnGauche"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginBottom="64dp"
+        android:background="@drawable/roundbutton"
+        android:backgroundTint="#FA5757"
+        android:fontFamily="@font/optimusprinceps"
+        android:text="@string/DirGauch"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Spinner
+        android:id="@+id/spin"
+        android:layout_width="336dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="435dp"
+        android:backgroundTint="#D2000000"
+        android:entries="@array/choix_question"
+        android:fontFamily="@font/optimusprinceps"
+        android:popupBackground="@drawable/loldragon"
+        android:theme="@android:style/Theme.Holo.Light.DarkActionBar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spin"
+        app:srcCompat="@drawable/bee"
+        android:contentDescription="@string/bee" />
+</androidx.constraintlayout.widget.ConstraintLayout>

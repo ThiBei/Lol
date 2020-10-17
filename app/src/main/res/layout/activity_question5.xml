@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityQuestion5">
+    <FrameLayout
+        android:layout_width="1263dp"
+        android:layout_height="957dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/backgroundLol"
+            android:layout_width="1500dp"
+            android:layout_height="950dp"
+            android:backgroundTint="#E6E2E2"
+            android:backgroundTintMode="multiply"
+            android:contentDescription="@string/bg2"
+            android:soundEffectsEnabled="true"
+            app:srcCompat="@drawable/background_landscape" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/optimusprincepssemibold"
+        android:text="@string/mon_arme_favorite"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.015"
+        tools:text="mon arme favorite  " />
+
+    <Button
+        android:id="@+id/btnDroit"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="64dp"
+        android:background="@drawable/roundbutton"
+        android:fontFamily="@font/optimusprinceps"
+        android:text="@string/DirDroite"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btnGauche"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginBottom="64dp"
+        android:background="@drawable/roundbutton"
+        android:backgroundTint="#FA5757"
+        android:fontFamily="@font/optimusprinceps"
+        android:text="@string/DirGauch"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="120dp"
+        android:layout_height="101dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="2dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pngegg" />
+
+    <ImageView
+        android:id="@+id/img3"
+        android:layout_width="120dp"
+        android:layout_height="101dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="2dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img2"
+        app:srcCompat="@drawable/bow" />
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="120dp"
+        android:layout_height="101dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="1dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img1"
+        app:srcCompat="@drawable/shilde" />
+
+    <ImageView
+        android:id="@+id/img4"
+        android:layout_width="120dp"
+        android:layout_height="101dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img3"
+        app:srcCompat="@drawable/sword" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.093"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.28">
+
+        <RadioButton
+            android:id="@+id/rbtn1"
+            android:layout_width="245dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="4dp"
+            android:background="#B0FF0000"
+            android:buttonTint="#FF8D00"
+            android:fontFamily="@font/optimusprincepssemibold"
+            android:text="@string/une_grosse_boule_de_feu"
+            android:textColor="#000000"
+            android:textSize="26sp" />
+
+        <RadioButton
+            android:id="@+id/rbtn2"
+            android:layout_width="245dp"
+            android:layout_height="112dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="20dp"
+            android:background="#FFFFFF"
+            android:backgroundTint="#75273A9A"
+            android:buttonTint="#1E88E5"
+            android:fontFamily="@font/optimusprincepssemibold"
+            android:text="@string/la_meilleur_attaque_c_est_la_d_fance"
+            android:textColor="#000000"
+            android:textSize="26sp" />
+
+        <RadioButton
+            android:id="@+id/rbtn3"
+            android:layout_width="246dp"
+            android:layout_height="119dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="64dp"
+            android:background="#FFFFFF"
+            android:backgroundTint="#4B7FCA57"
+            android:buttonTint="#43A047"
+            android:fontFamily="@font/optimusprincepssemibold"
+            android:text="@string/j_aime_mes_nemies_mort_loin"
+            android:textSize="26sp" />
+
+        <RadioButton
+            android:id="@+id/rbtn4"
+            android:layout_width="246dp"
+            android:layout_height="101dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="4dp"
+            android:background="#FFFCFC"
+            android:backgroundTint="#81FFBF00"
+            android:buttonTint="#FFDE00"
+            android:fontFamily="@font/optimusprincepssemibold"
+            android:text="@string/j_aime_les_voir_agoniser_sous_mes_yeux"
+            android:textColor="#000000"
+            android:textSize="26sp" />
+
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="choix_question">
+        <item>La clé de l\'immortalité? Ne pas mourrir!</item>
+        <item>Un autre champi une autre victime.</item>
+        <item>Pourquoi être si sérieux?</item>
+        <item>La fortune sourit aux audacieux.</item>
+		<item>L\'ordre au travers de la musique.</item>
+		<item>OK.</item>
+    </string-array>
+</resources>

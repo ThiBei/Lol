@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="1263dp"
+        android:layout_height="957dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/backgroundLol"
+            android:layout_width="1500dp"
+            android:layout_height="950dp"
+            android:soundEffectsEnabled="true"
+            app:srcCompat="@drawable/background_landscape"
+            android:contentDescription="@string/bg2" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/txtQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/optimusprinceps"
+        android:text="@string/comment_vousd_finiriez_vous"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="36sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="268dp"
+        android:layout_height="253dp"
+        android:layout_marginTop="168dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/rbtn1"
+            android:layout_width="227dp"
+            android:layout_height="67dp"
+            android:fontFamily="@font/optimusprinceps"
+            android:text="@string/fougueux"
+            android:textSize="36sp" />
+
+        <RadioButton
+            android:id="@+id/rbtn2"
+            android:layout_width="227dp"
+            android:layout_height="67dp"
+            android:fontFamily="@font/optimusprinceps"
+            android:text="@string/peureux"
+            android:textSize="36sp" />
+
+        <RadioButton
+            android:id="@+id/rbtn3"
+            android:layout_width="227dp"
+            android:layout_height="67dp"
+            android:fontFamily="@font/optimusprinceps"
+            android:text="@string/fourbe"
+            android:textSize="36sp" />
+
+        <RadioButton
+            android:id="@+id/rbtn4"
+            android:layout_width="295dp"
+            android:layout_height="67dp"
+            android:fontFamily="@font/optimusprinceps"
+            android:text="@string/un_peu_foufou"
+            android:textSize="36sp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnDroit"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="64dp"
+        android:background="@drawable/roundbutton"
+        android:fontFamily="@font/optimusprinceps"
+        android:text="@string/DirDroite"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btnGauche"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginBottom="64dp"
+        android:background="@drawable/roundbutton"
+        android:backgroundTint="#FA5757"
+        android:fontFamily="@font/optimusprinceps"
+        android:text="@string/DirGauch"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="190dp"
+        android:layout_height="187dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup"
+        app:srcCompat="@drawable/test_blitz" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

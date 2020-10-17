@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityQuestion2">
+    <FrameLayout
+        android:layout_width="1263dp"
+        android:layout_height="957dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/backgroundLol"
+            android:layout_width="1500dp"
+            android:layout_height="950dp"
+            android:soundEffectsEnabled="true"
+            app:srcCompat="@drawable/background_landscape"
+            android:contentDescription="@string/bg2" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/txtQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="19dp"
+        android:fontFamily="@font/optimusprincepssemibold"
+        android:text="@string/comment_pr_f_res_tu_vivre"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="36sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/radioGroup"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="426dp"
+        android:layout_height="471dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="118dp"
+        android:background="@drawable/parchemin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtQuestion">
+
+        <RadioButton
+            android:id="@+id/rbtn1"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/optimusprinceps"
+            android:text="@string/seul_au_monde"
+            android:textSize="24sp" />
+
+        <RadioButton
+            android:id="@+id/rbtn2"
+            android:layout_width="358dp"
+            android:layout_height="77dp"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="@font/optimusprinceps"
+            android:text="@string/je_pr_f_re_la_compagnie_des_animaux"
+            android:textSize="24sp" />
+
+        <RadioButton
+            android:id="@+id/rbtn3"
+            android:layout_width="305dp"
+            android:layout_height="92dp"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="@font/optimusprinceps"
+            android:text="@string/plus_on_est_de_fous_plus_on_rit"
+            android:textSize="24sp" />
+
+        <RadioButton
+            android:id="@+id/rbtn4"
+            android:layout_width="333dp"
+            android:layout_height="79dp"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="@font/optimusprinceps"
+            android:text="@string/j_alterne_entre_solitude_et_changes_avec_mes_amis"
+            android:textSize="24sp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnGauche"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginBottom="64dp"
+        android:background="@drawable/roundbutton"
+        android:backgroundTint="#FA5757"
+        android:fontFamily="@font/optimusprinceps"
+        android:text="@string/DirGauch"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnDroit"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="64dp"
+        android:background="@drawable/roundbutton"
+        android:fontFamily="@font/optimusprinceps"
+        android:text="@string/DirDroite"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"  />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

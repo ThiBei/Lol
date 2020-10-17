@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lol</string>
+    <string name="comment_vousd_finiriez_vous">Comment vous definiriez-vous?</string>
+    <string name="fougueux">Fougueux</string>
+    <string name="un_peu_foufou">Un peu foufou</string>
+    <string name="peureux">Peureux</string>
+    <string name="fourbe">Fourbe</string>
+    <string name="comment_vous_d_finiriez_vous">Comment vous definiriez vous ?</string>
+    <string name="comment_pr_f_res_tu_vivre">Comment preferes-tu vivre ?</string>
+    <string name="seul_au_monde">Seul au monde</string>
+    <string name="je_pr_f_re_la_compagnie_des_animaux">Je prefere la compagnie des animaux</string>
+    <string name="j_alterne_entre_solitude_et_changes_avec_mes_amis">J\'alterne entre solitude et echanges avec mes amis</string>
+    <string name="plus_on_est_de_fous_plus_on_rit">Plus on est de fous plus on rit</string>
+    <string name="quelle_image_vous_parle_le_plus">Cliquez sur votre blason prefere</string>
+    <string name="lors_d_un_combat">Lors d\'un combat :</string>
+    <string name="une_grosse_boule_de_feu">Une GROSSE boule de feu</string>
+    <string name="la_meilleur_attaque_c_est_la_d_fance">Mon bouclier !</string>
+    <string name="j_aime_mes_nemies_mort_loin">Mon truc, c\'est de viser</string>
+    <string name="j_aime_les_voir_agoniser_sous_mes_yeux">Glaive, sabre, un truc qui tranche !</string>
+    <string name="mon_arme_favorite">Cliquez sur votre arme favorite (ou le texte associe)</string>
+    <string name="exit">Quitter</string>
+    <string name="startValues">Commencer</string>
+    <string name="mailSent">Mail envoye !</string>
+    <string name="choice">Que voulez vous faire ?</string>
+    <string name="tryAgain">recommencer</string>
+    <string name="quitApp">Quitter</string>
+    <string name="send_result">Envoyer resultat</string>
+    <string name="skipMail">Passer</string>
+    <string name="Question6txt" translatable="false">Choisissez la meilleure citation</string>
+    <string name="checkbox1" translatable="false">Je me cache pour surprendre l\'ennemi</string>
+    <string name="checkbox2">Je rentre dans le tas</string>
+    <string name="checkbox3">Je fuuuuuuuuis !</string>
+    <string name="checkbox4">Mes soldats sont en ligne</string>
+    <string name="kled">kled</string>
+    <string name="heimer">heimer</string>
+    <string name="akali">akali</string>
+    <string name="anivia">anivia</string>
+    <string name="joke">Selectionnez l\'enregistrement qui vous plait le plus</string>
+    <string name="pickStar">Notez les images et poursuivez !</string>
+</resources>
