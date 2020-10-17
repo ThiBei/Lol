@@ -73,7 +73,7 @@ public class ActivityResultat extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 go.start();
-                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                Intent intent = new Intent(getApplicationContext(), ActivityEnd.class);
                 intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(intent);
             }
@@ -116,6 +116,14 @@ public class ActivityResultat extends AppCompatActivity {
         }
 
         String resQ6 = getIntent().getStringExtra("Q6");//comboBox
+
+
+        String resQ9 = getIntent().getStringExtra("Q9");//la start qui te conviens
+        String[] partsQ9 = resQ9.split("-");
+        for (String uneValeur : partsQ9) {
+            asignePoint(uneValeur);
+        }
+
 
         HashMap<String, Integer> allPoste = new HashMap<String, Integer>();
         allPoste.put("top", top);
@@ -367,7 +375,7 @@ public class ActivityResultat extends AppCompatActivity {
     }
 
     private void  goMain(){
-        Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+        Intent intent = new Intent(getApplicationContext(), ActivityEnd.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
     }

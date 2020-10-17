@@ -56,4 +56,14 @@
     <string name="targon" translatable="false">targon</string>
     <string name="piltover" translatable="false">piltover</string>
     <string name="freljord" translatable="false">freljord</string>
+    <string name="quelle_start">What is the best strategy for you ?</string>
+    <string name="solo_player">Solo player</string>
+    <string name="agressif">Aggressive</string>
+    <string name="inteur">Inteur</string>
+    <string name="team_player">Team Player</string>
+    <string name="dragon">Dragon</string>
+    <string name="baron_nashor">Baron Nashor</string>
+    <string name="prudent">Careful</string>
+    <string name="farmer">Farmer</string>
+    <string name="faite_votre_choix">Make your choice</string>
 </resources>

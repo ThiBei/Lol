@@ -38,4 +38,15 @@
     <string name="anivia">anivia</string>
     <string name="joke">Selectionnez l\'enregistrement qui vous plait le plus</string>
     <string name="pickStar">Notez les images et poursuivez !</string>
+    <string name="quelle_est_strategie_te_correspond_le_mieux">Quelle est strategie te correspond le mieux ?</string>
+    <string name="quelle_start">Quelle strategie te corespond le mieux ?</string>
+    <string name="solo_player">Solo player</string>
+    <string name="agressif">Agressif</string>
+    <string name="inteur">Inteur</string>
+    <string name="team_player">Team Player</string>
+    <string name="dragon">Dragon</string>
+    <string name="baron_nashor">Baron Nashor</string>
+    <string name="prudent">Prudent</string>
+    <string name="farmer">Farmer</string>
+    <string name="faite_votre_choix">Faite votre choix</string>
 </resources>

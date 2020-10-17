@@ -11,6 +11,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".ActivityQuestion10"></activity>
+        <activity
+            android:name=".ActivityQuestion9"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".ActivityEnd"
             android:screenOrientation="portrait" />
@@ -54,7 +58,10 @@
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
-        <service android:name=".SoundService"  android:enabled="true"></service>
+
+        <service
+            android:name=".SoundService"
+            android:enabled="true" />
     </application>
 
 </manifest>
